@@ -65,4 +65,28 @@ public class CustomerPointsServiceTest {
 
         assertEquals(0, result);
     }
+
+    @Test
+    void shouldReturn1150PointsForPurchase1000() {
+
+        CustomerPointsService service =
+                new CustomerPointsService();
+
+        int result =
+                service.calculatePoints(1000);
+
+        assertEquals(1150, result);
+    }
+
+    @Test
+    void shouldReturn1350PointsForPurchase1200() {
+
+        CustomerPointsService service =
+                new CustomerPointsService();
+
+        int result =
+                service.calculatePoints(1200);
+
+        assertEquals(1350, result);
+    }
 }

@@ -14,6 +14,10 @@ public class CustomerPointsService {
             points += 50;
         }
 
+        if (purchaseAmount >= 1000) {
+            points += 100;
+        }
+
         return points;
     }
 }
