@@ -8,7 +8,7 @@ public class Main {
                 new Customer("Damir");
 
         Customer customer2 =
-                new Customer("Anna");
+                new Customer("Jovana");
 
         CustomerPointsService service =
                 new CustomerPointsService();
