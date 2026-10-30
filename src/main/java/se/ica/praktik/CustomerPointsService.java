@@ -11,7 +11,7 @@ public class CustomerPointsService {
         int points = (int) purchaseAmount;
 
         if (purchaseAmount >= 500) {
-            points += 50;
+            points += 500;
         }
 
         if (purchaseAmount >= 1000) {
